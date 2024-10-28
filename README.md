@@ -1,16 +1,15 @@
 ## Clone GitHub pada terminal
-<p>git clone https://github.com/xenzadigitalgroup/admin-panel-penjualan.git
-</p>
+<p>git clone https://github.com/xenzadigitalgroup/admin-panel-penjualan.git</p>
 
 ## Masuk ke folder project
-<p>cd admin-panel-penjualan
-</p>
+<p>cd admin-panel-penjualan</p>
 
 ## Install Dependencies (Jika Proyek Laravel):
-<p>composer install <br>
-npm install <br>
-cp .env.example .env <br>
-php artisan key:generat
+<p>
+- composer install <br>
+- npm install <br>
+- cp .env.example .env <br>
+- php artisan key:generat
 </p>
 
 ## Pastikan Anda juga mengatur konfigurasi database di file .env, lalu jalankan migrasi:
