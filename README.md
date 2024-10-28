@@ -1,19 +1,19 @@
-Clone GitHub pada terminal
+## Clone GitHub pada terminal
 <p>git clone https://github.com/xenzadigitalgroup/admin-panel-penjualan.git
 </p>
 
-Masuk ke folder project
+## Masuk ke folder project
 <p>cd admin-panel-penjualan
 </p>
 
-Install Dependencies (Jika Proyek Laravel):
+## Install Dependencies (Jika Proyek Laravel):
 <p>composer install
 npm install
 cp .env.example .env
 php artisan key:generate
 </p>
 
-Setelah itu, jalankan server Laravel:
+## Setelah itu, jalankan server Laravel:
 <p>php artisan serve
 </p>
 
