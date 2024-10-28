@@ -7,11 +7,14 @@
 </p>
 
 ## Install Dependencies (Jika Proyek Laravel):
-<p>composer install
-npm install
-cp .env.example .env
-php artisan key:generate
+<p>composer install <br>
+npm install <br>
+cp .env.example .env <br>
+php artisan key:generat
 </p>
+
+## Pastikan Anda juga mengatur konfigurasi database di file .env, lalu jalankan migrasi:
+<p>php artisan migrate</p>
 
 ## Setelah itu, jalankan server Laravel:
 <p>php artisan serve
